@@ -1,3 +1,11 @@
+/* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+}
+/* Common Styles */
+.container {
+    width: 90%;
+    background-color: #ffffff;
+    max-width: 1440px;
 }
