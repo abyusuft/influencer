@@ -91,7 +91,7 @@ body {
     margin-left: 5px;
 }
 .header-image {
-    background-image: url(/media/images/circle.svg);
+    background-image: url(../media/images/circle.svg);
     background-repeat: no-repeat;
 }
 .header-image img {
