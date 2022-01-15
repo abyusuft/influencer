@@ -49,3 +49,71 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+
+/*------------------------------------
+-------- Top Section Styles ----------
+------------------------------------ */
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px ;
+}
+.top-left {
+    margin-right: 50px;
+}
+.top-left h2 {
+    color: #3A3A3A;
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.top-left p {
+    color: #3A3A3A;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+.top-left button {
+    background-color: #E02C6D;
+    color:#ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding:13px 30px;
+    border-radius: 41px;
+    border:0;
+}
+.top-left button .btn-icon {
+    margin-left: 5px;
+}
+.header-image {
+    background-image: url(/media/images/circle.svg);
+    background-repeat: no-repeat;
+}
+.header-image img {
+    padding: 30px;
+}
+
+.header-image:hover img {
+    animation-name: camera-rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Header Image Animation Styles  */
+
+@keyframes camera-rotate {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
