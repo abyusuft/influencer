@@ -6,7 +6,7 @@
 /* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,4 +116,88 @@ body {
     100% {
         transform: rotate(0);
     }
+}
+
+/*------------------------------------
+---- Company Logo section Styles -----
+------------------------------------ */
+.company-logos {
+    margin-top: 69px;
+}
+.company-logos .logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    margin:0 50px;
+    padding: 36px  0;
+    border-top:1px solid #C0CCDA ;
+    border-bottom:1px solid #C0CCDA ;
+}
+
+/*------------------------------------
+---- Popular Collection section Styles -----
+------------------------------------ */
+.popular-collection {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+}
+.product {
+    padding:5%;
+    border: 1px solid #cccccc57;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #cccccc57;
+}
+.product img {
+    width: 100%;
+}
+.product-name {
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.product-price {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+}
+.rating {
+    color: #5E6366;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    align-items: center;
+}
+.rating i {
+    color: #FB8200;
+    font-size: 12px;
+}
+.product-description {
+    font-size: 16px;
+    font-weight: 700;
+    color:#787885 ;
+    margin: 5px 0;
+    line-height: 1.5em;
+}
+.see-more {
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: right;
+}
+.see-more a {
+    text-decoration: none;
+    margin-top: 50px;
+    color: #E02C6DDE;
+    font-weight: 700;
+}
+.see-more i {
+color: #E02C6DDE;
 }
