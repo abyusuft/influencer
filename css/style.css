@@ -95,6 +95,8 @@ body {
 .header-image {
     background-image: url(../media/images/circle.svg);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
 }
 .header-image img {
     padding: 30px;

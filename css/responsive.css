@@ -10,14 +10,24 @@
         flex-direction: column;
         justify-content: center;
     }
+    .menu-area ul li {
+        margin-right: 15px;
+    }
     .top-section {
         flex-direction: column;
     }
     .top-left {
         margin-right: 0;
     }
+    .top-right {
+        width: 100%;
+    }
     .header-image {
         margin-top: 50px;
+        width: 100%;
+    }
+    .header-image img {
+        width: 100%;
     }
     .company-logos .logos {
         grid-template-columns: repeat(4, 1fr);
