@@ -85,11 +85,13 @@
     .subscribe input:first-child {
         width: 100%;
         box-sizing: border-box;
+        border-radius: 5px;
     }
     .subscribe input:last-child {
         width: 100%;
         margin-left: 0;
         margin-top: 5px;
+        border-radius: 5px;
     }
     
 
@@ -149,7 +151,7 @@
     .products {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
  /*------------------------------------
 -------- News Letter Section Styles ----------
 ------------------------------------ */
@@ -172,11 +174,13 @@
     .subscribe input:first-child {
         width: 100%;
         box-sizing: border-box;
+        border-radius: 5px;
     }
     .subscribe input:last-child {
         width: 100%;
         margin-left: 0;
         margin-top: 5px;
+        border-radius: 5px;
     }
 
 }
