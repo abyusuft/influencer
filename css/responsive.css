@@ -3,9 +3,17 @@
 ------------------------------------ */
 
 @media only screen and (max-width:688px) {
+
+/*------------------------------------
+-------- Common Styles ----------
+------------------------------------ */
     .container {
         width: 90%;
     }
+
+/*------------------------------------
+-------- Header area Styles ----------
+------------------------------------ */
     .header-area {
         flex-direction: column;
         justify-content: center;
@@ -13,34 +21,56 @@
     .menu-area ul li {
         margin-right: 15px;
     }
+
+/*------------------------------------
+-------- Top Section Styles ----------
+------------------------------------ */
     .top-section {
         flex-direction: column;
+        text-align: center;
     }
     .top-left {
         margin-right: 0;
+    }
+    .top-left h2 {
+        font-size: 28px;
     }
     .top-right {
         width: 100%;
     }
     .header-image {
         margin-top: 50px;
-        width: 100%;
+        width: 90%;
     }
     .header-image img {
-        width: 100%;
+        width: 85%;
+        margin-bottom: 5px;
     }
+
+/*------------------------------------
+-------- company logo Styles ----------
+------------------------------------ */
     .company-logos .logos {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 20px;
         padding: 36px  5%;
         justify-items: center;
     }
+
+/*------------------------------------
+-------- popular collection Styles ----------
+------------------------------------ */
     .products {
         grid-template-columns: repeat(1, 1fr);
     }
 
+/*------------------------------------
+-------- News Letter Styles ----------
+------------------------------------ */
     .news-letter {
         flex-direction: column;
+        margin:50px 0;
+        text-align: center;
     }
     .news-banner, .news-form {
         width: 100%;
@@ -70,30 +100,64 @@
 ------------------------------------ */
 
 @media only screen and (min-width:689px) and (max-width:980px) {
+/*------------------------------------
+-------- common Styles ----------
+------------------------------------ */
      .container {
         width: 95%;
     }
+
+/*------------------------------------
+-------- Header area Styles ----------
+------------------------------------ */
     .header-area {
         flex-direction: column;
         justify-content: center;
     }
+
+/*------------------------------------
+-------- Top Section Styles ----------
+------------------------------------ */
     .top-section {
         flex-direction: column;
+        text-align: center;
     }
+     .top-left {
+        margin-right: 0;
+    }
+      .top-left h2 {
+        font-size: 35px;
+    }
+    .header-image {
+        margin-top: 50px;
+    }
+
+/*------------------------------------
+-------- company logo section Styles ----------
+------------------------------------ */
+    
     .company-logos .logos {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 20px;
         padding: 36px  40px;
         justify-items: center;
     }
+
+ /*------------------------------------
+-------- Popular Collection Styles ----------
+------------------------------------ */   
     .products {
         grid-template-columns: repeat(2, 1fr);
     }
-    .top-left {
-        margin-right: 0;
-    }
+    
+ /*------------------------------------
+-------- News Letter Section Styles ----------
+------------------------------------ */
+   
     .news-letter {
         flex-direction: column;
+        margin: 50px 0 ;
+        text-align: center;
     }
     .news-banner, .news-form {
         width: 100%;
