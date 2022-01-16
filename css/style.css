@@ -12,7 +12,9 @@ body {
     align-items: center;
 }
 .container {
-   width: 1200px;
+  width: 90%;
+  max-width: 1200px;
+   
 }
 
 /*------------------------------------
@@ -128,9 +130,13 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
+    justify-items: center;
     padding: 36px  50px;
     border-top:1px solid #C0CCDA ;
     border-bottom:1px solid #C0CCDA ;
+}
+.company-logos .logos .logo img {
+    width: 100%;
 }
 
 /*------------------------------------
@@ -139,6 +145,7 @@ body {
 .popular-collection {
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 100%;
 }
 .collection-header {
     font-size: 28px;
@@ -152,6 +159,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     justify-content: center;
+    width: 100%;
 }
 .product {
     padding:5%;
@@ -235,7 +243,7 @@ color: #E02C6DDE;
 .subscribe input:first-child {
     padding: 20px 10px;
     width: 70%;
-   border:1px solid #E02C6D;
+    border:1px solid #E02C6D;
     font-size: 16px;
     font-weight: 700;
 }

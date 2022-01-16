@@ -1,0 +1,108 @@
+/*------------------------------------
+-------- Mobile Device Styles ----------
+------------------------------------ */
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 90%;
+    }
+    .header-area {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-section {
+        flex-direction: column;
+    }
+    .top-left {
+        margin-right: 0;
+    }
+    .header-image {
+        margin-top: 50px;
+    }
+    .company-logos .logos {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        padding: 36px  5%;
+        justify-items: center;
+    }
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news-letter {
+        flex-direction: column;
+    }
+    .news-banner, .news-form {
+        width: 100%;
+    }
+    .subscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+    .news-form  {
+        margin: 0;
+    }
+    .subscribe input:first-child {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .subscribe input:last-child {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    
+
+}
+
+/*------------------------------------
+-------- Tablet Device Styles ----------
+------------------------------------ */
+
+@media only screen and (min-width:689px) and (max-width:980px) {
+     .container {
+        width: 95%;
+    }
+    .header-area {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-section {
+        flex-direction: column;
+    }
+    .company-logos .logos {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        padding: 36px  40px;
+        justify-items: center;
+    }
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-left {
+        margin-right: 0;
+    }
+    .news-letter {
+        flex-direction: column;
+    }
+    .news-banner, .news-form {
+        width: 100%;
+    }
+    .subscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+    .news-form  {
+        margin: 0;
+    }
+    .subscribe input:first-child {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .subscribe input:last-child {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+}
