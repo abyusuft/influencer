@@ -248,6 +248,7 @@ color: #E02C6DDE;
     border:1px solid #E02C6D;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 5px;
 }
 .subscribe input:last-child {
     background-color: #E02C6D;
@@ -258,6 +259,7 @@ color: #E02C6DDE;
     width: 30%;
     padding: 20px 10px;
     margin-left: 2px;
+    border-radius: 5px;
 }
 .agree {
     font-size: 14px;
